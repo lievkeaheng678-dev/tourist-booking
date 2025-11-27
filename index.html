@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stack+Sans+Text:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+    .navbar:hover {
+        text-decoration: underline;
+    }
+
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+
+<body>
+    <div class="">
+        <nav>
+            <div class="flex justify-between items-center p-5 text-black shadow-md ">
+                <h1 class="text-3xl font-bold text-yellow-600 ">TravelWith US</h1>
+                <ul class="flex gap-15 text-lg col-lg-6">
+                    <li class="text-yellow-500 navbar font">Home</li>
+                    <li class="hover:underline text-gray-500 cursor-pointer">Services</li>
+                    <li class="hover:underline text-gray-500 cursor-pointer">Contact</li>
+                    <li class="hover:underline text-gray-500 cursor-pointer">About</li>
+                    <li class="hover:underline text-gray-500 cursor-pointer">More</li>
+                </ul>
+                <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Book Now</button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="w-full min-h-screen flex flex-col md:flex-row items-center justify-center p-18 gap-10">
+        <div class="md:w-1/2 w-full">
+            <h2 class="text-2xl font-bold text-black leading-snug mb-4">
+                Travel involves the movement of people between distant geographical locations for various purposes, such
+                as leisure, business, or exploration. It can be done by foot, car, train, boat, bus, airplane, or other
+                means.
+            </h2>
+        </div>
+        <div class="md:w-1/2 w-full flex justify-center">
+            <img src="https://th.bing.com/th/id/R.d82aa294e94f473534450270c862c29f?rik=og0HcaAthfKq7w&pid=ImgRaw&r=0"
+                alt="ASUS TUF Promo" class="rounded-xl shadow-xl w-full object-cover" />
+        </div>
+    </div>
+    <div>
+        <div class="bg-gray-100 p-8">
+            <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">Tourist Destinations in Cambodia</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.JOBMGG1ttJa7qemqEn9rzQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="Angkor Wat" class="w-full h-48 object-cover rounded-t-lg mb-4">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Angkor Wat</h2>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Location:</strong> Siem Reap Province</p>
+                    <p class="text-gray-700 mb-4"><strong>Description:</strong> The iconic temple complex, a UNESCO
+                        World Heritage site, is the largest religious monument in the world and a symbol of ancient
+                        Khmer civilization.</p>
+                    <p class="text-gray-700 mb-2"><strong>Highlights:</strong> Sunrise views, intricate carvings, and
+                        the surrounding Angkor Thom and Ta Prohm temples.</p>
+                    <p class="text-gray-700 mb-2"><strong>Best Time to Visit:</strong> Dry season (Nov-Apr) to avoid
+                        rain.</p>
+                    <p class="text-gray-700"><strong>Tips:</strong> Hire a tuk-tuk guide for the day; entry fee is ~$37
+                        USD.</p>
+                    <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Book Now</button>
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <img src="https://th.bing.com/th/id/R.3ffd262ca0599034563829d5067bd50e?rik=nCdduLXLtKp15Q&pid=ImgRaw&r=0"
+                        alt="Phnom Penh" class="w-full h-48 object-cover rounded-t-lg mb-4">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Phnom Penh</h2>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Location:</strong> Capital city</p>
+                    <p class="text-gray-700 mb-4"><strong>Description:</strong> A bustling riverside city blending
+                        colonial history with modern vibes, known for its resilience and cultural depth.</p>
+                    <p class="text-gray-700 mb-2"><strong>Highlights:</strong> Royal Palace, Tuol Sleng Genocide Museum,
+                        and vibrant night markets.</p>
+                    <p class="text-gray-700 mb-2"><strong>Best Time to Visit:</strong> Nov-Mar for cooler weather.</p>
+                    <p class="text-gray-700"><strong>Tips:</strong> Use Grab for rides; try local amok fish curry at a
+                        riverside restaurant.</p>
+                    <div class="py-12">
+                        <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 ">Book
+                            Now</button>
+                    </div>
+
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <img src="https://th.bing.com/th/id/R.8f930c20bdd30ab7c1c4c7815d81ffc6?rik=VeLurHsHqtcYJg&pid=ImgRaw&r=0"
+                        alt="Sihanoukville" class="w-full h-48 object-cover rounded-t-lg mb-4">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Sihanoukville</h2>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Location:</strong> Coastal town in Preah Sihanouk
+                        Province</p>
+                    <p class="text-gray-700 mb-4"><strong>Description:</strong> Cambodia's premier beach destination
+                        with golden sands, clear waters, and a growing resort scene.</p>
+                    <p class="text-gray-700 mb-2"><strong>Highlights:</strong> Serendipity Beach, island hopping, and
+                        snorkeling at nearby Koh Rong.</p>
+                    <p class="text-gray-700 mb-2"><strong>Best Time to Visit:</strong> Dry season (Dec-Apr) for sunny
+                        days.</p>
+                    <p class="text-gray-700"><strong>Tips:</strong> Bargain for boat trips; watch for jellyfish in the
+                        water.</p>
+                    <div class="py-5">
+                        <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Book
+                            Now</button>
+                    </div>
+
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <img src="https://assets.aseannow.com/forum/uploads/monthly_2021_02/1609320526250.jpg.bdaa8e38ace53779b6ffeaa29f1b306e.jpg"
+                        alt="Battambang" class="w-full h-48 object-cover rounded-t-lg mb-4">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Battambang</h2>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Location:</strong> Northwestern Cambodia</p>
+                    <p class="text-gray-700 mb-4"><strong>Description:</strong> A charming riverside town offering a
+                        glimpse into rural Cambodia, away from the tourist crowds.</p>
+                    <p class="text-gray-700 mb-2"><strong>Highlights:</strong> Bamboo train rides, Phnom Sampeau hill
+                        caves, and floating villages on Tonle Sap Lake.</p>
+                    <p class="text-gray-700 mb-2"><strong>Best Time to Visit:</strong> Nov-Apr for festivals and clear
+                        skies.</p>
+                    <p class="text-gray-700"><strong>Tips:</strong> Rent a bike to explore; try the local rice wine.</p>
+                    <div class="py-12">
+                        <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Book
+                            Now</button>
+                    </div>
+
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <img src="https://img.freepik.com/premium-photo/seahorse-kampot-cambodia-new-iconic-province-amazing-cambodia_720542-139.jpg"
+                        alt="Kampot" class="w-full h-48 object-cover rounded-t-lg mb-4">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Kampot</h2>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Location:</strong> Southwestern Cambodia</p>
+                    <p class="text-gray-700 mb-4"><strong>Description:</strong> A laid-back town famous for its pepper
+                        plantations, French colonial architecture, and proximity to Bokor National Park.</p>
+                    <p class="text-gray-700 mb-2"><strong>Highlights:</strong> Pepper farms, sunset river cruises, and
+                        hiking in the misty mountains.</p>
+                    <p class="text-gray-700 mb-2"><strong>Best Time to Visit:</strong> Dry season (Dec-Mar) for outdoor
+                        activities.</p>
+                    <p class="text-gray-700"><strong>Tips:</strong> Stay in a riverside guesthouse; sample Kampot pepper
+                        in local dishes.</p>
+                    <div class="py-5">
+                        <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Book
+                            Now</button>
+                    </div>
+
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <img src="https://img.freepik.com/premium-photo/seahorse-kampot-cambodia-new-iconic-province-amazing-cambodia_720542-139.jpg"
+                        alt="Kampot" class="w-full h-48 object-cover rounded-t-lg mb-4">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2">Mondulkiri</h2>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Location:</strong> Eastern Cambodia</p>
+                    <p class="text-gray-700 mb-4"><strong>Description:</strong> Mondulkiri is a beautiful and peaceful
+                        province located in the northeastern part of Cambodia.</p>
+                    <p class="text-gray-700 mb-2"><strong>Highlights:</strong>Located in northeastern Cambodia, known
+                        for cool weather and mountain landscapes.</p>
+                    <p class="text-gray-700 mb-2"><strong>Best Time to Visit:</strong> November – February (Best
+                        Time),March – May (Hot Season).
+                    </p>
+                    <p class="text-gray-700"><strong>Tips:</strong> Wear warm clothes; sample local dishes, Carry cash.
+                    </p>
+                    <div class="py-5">
+                        <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600">Book
+                            Now</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="bg-grey-500">
+            <div class="footer"
+                style="background-color: #CFCECE; margin-top: 20px; border-radius: 20px 0 0 0; border: 1px solid #CFCECE ;">
+                <h1 style="text-align: center; padding-top: 20px; font-size: 1.875rem; font-weight: 700;">About Us</h1>
+
+                <div class="footer-links flex justify-between items-center p-8 cursor-pointer align-center">
+                    <div class="footer-more">
+                        <h3>Contact Us</h3>
+                        <div style="padding: 7px 0 0 10px;">
+                            <p><a style="text-decoration: none; color:grey; " href="">Support</a>
+                            </p>
+                            <p><a style="text-decoration: none; color:grey;" href="">FAQs</a></p>
+                            <p><a style="text-decoration: none; color:grey;" href="">Follow</a></p>
+                            <p><a style="text-decoration: none; color:grey;" href="">More</a></p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Supports</h3>
+                        <div style="padding: 7px 0 0 10px;">
+                            <p><a style="text-decoration: none; color:grey;" href="">Email Us</a></p>
+                            <p><a style="text-decoration: none; color:grey" href="">Contact Us</a></p>
+                            <p><a style="text-decoration: none; color:grey" href="">ASUS Support Videos</a></p>
+                            <p><a style="text-decoration: none; color:grey" href="">MyASUS</a></p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Displays / Desktops</h3>
+                        <div style="padding: 7px 0 0 10px;">
+                            <p><a style="text-decoration: none; color:grey;" href="">Monitors</a></p>
+                            <p><a style="text-decoration: none; color:grey" href="">Projectors</a></p>
+                            <p><a style="text-decoration: none; color:grey" href="">All-in-One PCs</a></p>
+                            <p><a style="text-decoration: none; color:grey" href="">Gaming Tower PCs</a></p>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <hr>
+                <div style="text-align: center;">
+                    &copy;Design by Heng.
+                </div>
+        </footer>
+
+
+</body>
+
+</html>
