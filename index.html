@@ -17,6 +17,21 @@
     * {
         font-family: 'Poppins', sans-serif;
     }
+
+    .hero-bg {
+        background-size: 110%;
+        animation: zoomBg 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes zoomBg {
+        from {
+            background-size: 110%;
+        }
+
+        to {
+            background-size: 90%;
+        }
+    }
 </style>
 
 <body>
@@ -36,7 +51,7 @@
         </nav>
     </div>
 
-    <div class="w-full min-h-screen flex flex-col md:flex-row items-center justify-center p-18 gap-10">
+    <div class="w-full min-h-screen flex flex-col md:flex-row items-center justify-center p-18 gap-10 ">
         <div class="md:w-1/2 w-full">
             <h2 class="text-2xl font-bold text-black leading-snug mb-4">
                 Travel involves the movement of people between distant geographical locations for various purposes, such
@@ -44,9 +59,9 @@
                 means.
             </h2>
         </div>
-        <div class="md:w-1/2 w-full flex justify-center">
+        <div class="md:w-1/2 w-full flex justify-center hero-bg">
             <img src="https://th.bing.com/th/id/R.d82aa294e94f473534450270c862c29f?rik=og0HcaAthfKq7w&pid=ImgRaw&r=0"
-                alt="ASUS TUF Promo" class="rounded-xl shadow-xl w-full object-cover" />
+                alt="ASUS TUF Promo" class="rounded-xl shadow-xl w-full object-cover hero-bg" />
         </div>
     </div>
     <div>
@@ -204,7 +219,7 @@
                         </div>
                     </div>
                     <div>
-                        <h3>Displays / Desktops</h3>
+                        <h3>Safety / Services</h3>
                         <div style="padding: 7px 0 0 10px;">
                             <p><a style="text-decoration: none; color:grey;" href="">Direction</a></p>
                             <p><a style="text-decoration: none; color:grey" href="">Travels</a></p>
